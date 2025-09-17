@@ -35,24 +35,55 @@ FinGuard is an enterprise-grade AI-powered assistant designed specifically for P
 ## 🗂️ Directory Structure
 ```
 FinGuard/
-├── main.py                # FastAPI entry point
-├── requirements.txt       # Python dependencies
-├── backend/               # Backend logic
-│   ├── routes/            # API endpoints (auth, chat)
-│   ├── interactors/       # Business logic (auth, rag)
-│   ├── schemas/           # Data models
-│   ├── services/          # RAG, ChromaDB, chunking, etc.
-│   └── utils/             # Utility functions
-├── frontend/
-│   └── app.py             # Streamlit UI
-├── chroma_db/             # ChromaDB vector store
-├── data/                  # Departmental documents (Pakistani context)
+├── .env                           # Environment variables (API keys, config)
+├── .git/                          # Git repository files
+├── README.md                      # Project documentation
+├── main.py                        # FastAPI application entry point
+├── requirements.txt               # Python dependencies
+├── backend/                       # Backend application logic
+│   ├── __init__.py
+│   ├── interactors/               # Business logic layer
+│   │   ├── __init__.py
+│   │   ├── auth.py                # Authentication business logic
+│   │   └── rag.py                 # RAG system business logic
+│   ├── routes/                    # API endpoints
+│   │   ├── __init__.py
+│   │   ├── auth.py                # Authentication endpoints
+│   │   └── chat.py                # Chat/query endpoints
+│   ├── schemas/                   # Data models and schemas
+│   │   ├── __init__.py
+│   │   └── models.py              # Pydantic models
+│   ├── services/                  # Core services
+│   │   ├── __init__.py
+│   │   ├── chroma.py              # ChromaDB vector database service
+│   │   ├── chunking.py            # Document chunking service
+│   │   ├── data_loader.py         # Data loading and processing
+│   │   ├── embedding.py           # Text embedding service
+│   │   ├── graph.py               # LangGraph agent workflow
+│   │   ├── prompts.py             # LLM prompts and templates
+│   │   └── tools.py               # LangGraph tools for data retrieval
+│   └── utils/                     # Utility functions
+│       ├── __init__.py
+│       └── auth.py                # Authentication utilities
+├── data/                          # Departmental data files (Pakistani context)
 │   ├── engineering/
+│   │   └── engineering.md         # Engineering department data
 │   ├── finance/
+│   │   ├── quaterly.md           # Quarterly financial reports
+│   │   └── summary.md            # Financial summaries
 │   ├── general/
+│   │   └── handbook.md           # Company handbook
 │   ├── hr/
+│   │   └── data.csv              # HR employee data
 │   └── marketing/
-└── ...
+│       ├── q1.md                 # Q1 marketing data
+│       ├── q2.md                 # Q2 marketing data
+│       ├── q3.md                 # Q3 marketing data
+│       ├── q4.md                 # Q4 marketing data
+│       └── report.md             # Marketing reports
+└── frontend/                      # Streamlit frontend
+    └── app.py                     # Streamlit UI application
+
 ```
 
 ---
@@ -259,31 +290,32 @@ flowchart TD
 ## ❓ FAQ
 
 **Q: Can I use this for a non-Pakistani company?**
+
 A: Absolutely! Just replace the sample data in the `data/` folders with your company's documents and update any Pakistan-specific references in the prompts.
 
 **Q: How do I add a new department?**
+
 A: 1) Create a new folder under `data/department_name/`, 2) Add your documents (markdown/CSV), 3) Create a new tool in `backend/services/tools.py`, 4) Update the role permissions in `backend/utils/auth.py`.
 
 **Q: What LLM models are supported?**
+
 A: Currently uses Groq's Llama-3.1-8b-instant, but the architecture supports any LangChain-compatible LLM (OpenAI, Anthropic, local models, etc.).
 
 **Q: How does role-based access work?**
+
 A: Each user role has access to specific namespaces in ChromaDB. The system filters documents and tools based on the authenticated user's role before processing queries.
 
 **Q: Is this production-ready?**
+
 A: The core architecture is enterprise-grade, but you should review security settings, add proper logging, implement rate limiting, and configure environment variables for production deployment.
 
 **Q: Can I use different embedding models?**
+
 A: Yes! Update the embedding model in `backend/services/chroma.py`. The system uses HuggingFace embeddings by default but supports any compatible model.
 
 **Q: How do I scale for large datasets?**
+
 A: ChromaDB supports horizontal scaling, and you can implement database sharding by department. Consider using cloud vector databases like Pinecone for very large datasets.
-
----
-
-## 👥 Team
-- [Your Name] - Lead Developer
-- [Contributors](https://github.com/iqbal-waqar/FinGuard/graphs/contributors)
 
 ---
 
