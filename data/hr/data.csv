@@ -1,0 +1,101 @@
+employee_id,full_name,role,department,email,location,date_of_birth,date_of_joining,manager_id,salary,leave_balance,leaves_taken,attendance_pct,performance_rating,last_review_date
+FINEMP1000,Ayesha Khan,Sales Manager,Sales,ayesha.khan@finguard.com,Karachi,1991-04-03,2018-11-20,FINEMP1006,1332478.37,22,11,99.31,3,2024-05-21
+FINEMP1001,Fatima Ahmed,Credit Officer,Finance,fatima.ahmed@finguard.com,Lahore,1995-09-21,2021-05-20,FINEMP1005,1491158.23,8,3,85.15,5,2024-01-20
+FINEMP1002,Zainab Ali,Relationship Manager,Sales,zainab.ali@finguard.com,Islamabad,1993-08-05,2023-04-17,FINEMP1008,1448927.95,21,7,86.31,2,2025-02-11
+FINEMP1003,Muhammad Hassan,Business Analyst,Business,muhammad.hassan@finguard.com,Faisalabad,1984-12-20,2018-06-10,FINEMP1003,519865.26,12,5,84.34,1,2024-07-24
+FINEMP1004,Ali Raza,Marketing Manager,Marketing,ali.raza@finguard.com,Rawalpindi,1986-03-31,2022-12-20,FINEMP1008,1922205.04,21,10,86.03,3,2024-01-12
+FINEMP1005,Hassan Shah,Financial Analyst,Finance,hassan.shah@finguard.com,Multan,1977-05-28,2020-10-31,FINEMP1009,1085205.18,4,4,82.77,2,2024-09-15
+FINEMP1006,Sara Khan,QA Engineer,Quality Assurance,sara.khan@finguard.com,Gujranwala,1989-12-26,2021-05-15,FINEMP1004,660681.91,11,10,96.49,2,2024-02-26
+FINEMP1007,Zubair Ahmed,Marketing Manager,Marketing,zubair.ahmed@finguard.com,Peshawar,1976-11-01,2020-11-30,FINEMP1000,1149019.58,11,10,82.97,4,2024-01-31
+FINEMP1008,Ayesha Siddiqui,Customer Support,Operations,ayesha.siddiqui@finguard.com,Quetta,1977-06-18,2019-02-12,FINEMP1007,370315.98,7,5,96.92,5,2024-08-07
+FINEMP1009,Bilal Hussain,Credit Officer,Finance,bilal.hussain@finguard.com,Sialkot,1976-09-21,2021-10-13,FINEMP1009,309717.04,10,4,90.29,2,2025-04-22
+FINEMP1010,Usman Ali,HR Manager,HR,usman.ali@finguard.com,Bahawalpur,1996-12-31,2021-10-23,FINEMP1007,1201969.11,10,2,99.98,5,2024-04-20
+FINEMP1011,Amna Khan,Business Analyst,Business,amna.khan@finguard.com,Sargodha,1975-03-02,2021-05-21,FINEMP1004,1129637.9,24,7,97.41,5,2024-01-07
+FINEMP1012,Ahmed Raza,Security Engineer,Technology,ahmed.raza@finguard.com,Sukkur,1977-08-20,2021-03-14,FINEMP1007,1703783.22,13,1,97.57,3,2024-11-28
+FINEMP1013,Fatima Khan,Security Engineer,Technology,fatima.khan@finguard.com,Larkana,1982-02-25,2020-04-12,FINEMP1009,759800.28,8,2,99.38,1,2024-11-06
+FINEMP1014,Zara Ahmed,Treasury Analyst,Finance,zara.ahmed@finguard.com,Sheikhupura,1983-11-05,2023-03-25,FINEMP1002,467884.86,17,8,87.03,3,2024-06-18
+FINEMP1015,Hina Ali,HR Manager,HR,hina.ali@finguard.com,Jhang,1994-07-14,2018-08-17,FINEMP1001,1074426.0,1,0,86.84,4,2024-07-06
+FINEMP1016,Sadia Khan,Relationship Manager,Sales,sadia.khan@finguard.com,Rahim Yar Khan,1980-10-27,2020-07-10,FINEMP1003,1876390.13,28,5,85.52,5,2025-03-16
+FINEMP1017,Nadia Hussain,DevOps Engineer,Technology,nadia.hussain@finguard.com,Gujrat,1977-05-17,2019-10-20,FINEMP1004,526736.68,20,6,88.24,1,2025-04-10
+FINEMP1018,Imran Khan,Compliance Officer,Compliance,imran.khan@finguard.com,Mardan,1975-11-20,2024-11-17,FINEMP1001,480639.52,29,17,89.53,5,2024-05-09
+FINEMP1019,Amina Ahmed,Relationship Manager,Sales,amina.ahmed@finguard.com,Charsadda,1985-08-21,2019-03-06,FINEMP1000,443210.71,11,3,87.92,5,2024-12-20
+FINEMP1020,Kashif Ali,Sales Manager,Sales,kashif.ali@finguard.com,Swat,1978-06-25,2024-11-29,FINEMP1007,969422.69,24,13,94.35,1,2024-09-14
+FINEMP1021,Farhan Ahmed,Treasury Analyst,Finance,farhan.ahmed@finguard.com,Dera Ghazi Khan,1976-07-27,2022-05-29,FINEMP1006,1940128.43,23,4,83.76,1,2025-03-14
+FINEMP1022,Saad Khan,Customer Support,Operations,saad.khan@finguard.com,Nowshera,1988-06-03,2023-09-07,FINEMP1005,1392523.21,9,4,81.41,1,2025-03-31
+FINEMP1023,Nasir Hussain,Business Analyst,Business,nasir.hussain@finguard.com,Kohat,1992-03-23,2024-05-06,FINEMP1004,1154429.09,16,7,80.64,2,2024-01-06
+FINEMP1024,Rizwan Ahmed,Security Engineer,Technology,rizwan.ahmed@finguard.com,Mingora,1994-12-19,2023-03-23,FINEMP1001,611560.84,29,8,91.43,2,2025-01-17
+FINEMP1025,Kamran Ali,Marketing Manager,Marketing,kamran.ali@finguard.com,Sahiwal,1999-06-08,2021-06-12,FINEMP1004,340969.05,18,4,84.73,3,2024-04-05
+FINEMP1026,Waqar Khan,Blockchain Developer,Technology,waqar.khan@finguard.com,Okara,1983-12-04,2024-08-25,FINEMP1007,1836299.49,14,13,86.13,1,2024-12-12
+FINEMP1027,Sanaullah Ahmed,Security Engineer,Technology,sanaullah.ahmed@finguard.com,Mirpur Khas,1978-10-20,2019-02-25,FINEMP1009,1710679.64,4,2,96.01,1,2024-06-08
+FINEMP1028,Aisha Khan,Compliance Officer,Compliance,aisha.khan@finguard.com,Chiniot,1983-11-14,2024-06-04,FINEMP1007,1343177.54,20,6,96.85,4,2025-03-14
+FINEMP1029,Abdullah Khan,Data Analyst,Data,abdullah.khan@finguard.com,Kamoke,1997-06-28,2020-01-17,FINEMP1009,1128053.06,23,11,97.48,2,2025-02-21
+FINEMP1030,Hamza Ali,Data Scientist,Data,hamza.ali@finguard.com,Hyderabad,1984-01-30,2020-04-27,FINEMP1003,436056.24,25,13,90.6,5,2024-02-07
+FINEMP1031,Zahid Hussain,Compliance Officer,Compliance,zahid.hussain@finguard.com,Sadiqabad,1996-06-26,2023-12-16,FINEMP1009,1363418.93,6,6,84.54,5,2024-12-14
+FINEMP1032,Asif Ahmed,Financial Analyst,Finance,asif.ahmed@finguard.com,Burewala,1985-01-29,2024-10-21,FINEMP1009,1069322.39,29,24,96.83,1,2024-01-20
+FINEMP1033,Saima Khan,Risk Analyst,Risk,saima.khan@finguard.com,Jhelum,1985-10-07,2022-06-26,FINEMP1003,1513021.23,8,2,97.62,1,2024-10-09
+FINEMP1034,Nabeela Ali,Marketing Manager,Marketing,nabeela.ali@finguard.com,Muzaffargarh,1980-09-05,2023-01-09,FINEMP1002,1243560.93,26,4,97.76,2,2024-09-08
+FINEMP1035,Tariq Mahmood,Treasury Analyst,Finance,tariq.mahmood@finguard.com,Khanewal,1991-04-25,2019-02-20,FINEMP1005,1507283.59,21,11,80.39,3,2025-04-04
+FINEMP1036,Faisal Iqbal,Business Analyst,Business,faisal.iqbal@finguard.com,Hafizabad,1977-11-16,2022-05-08,FINEMP1002,1875290.4,17,10,91.5,4,2024-07-05
+FINEMP1037,Shahid Hussain,Sales Manager,Sales,shahid.hussain@finguard.com,Attock,1986-08-12,2023-02-05,FINEMP1001,403990.23,19,19,99.74,5,2024-01-10
+FINEMP1038,Nida Fatima,Security Engineer,Technology,nida.fatima@finguard.com,Kamalia,1994-01-23,2018-02-22,FINEMP1007,1152589.39,4,3,92.5,4,2024-05-13
+FINEMP1039,Arsalan Khan,DevOps Engineer,Technology,arsalan.khan@finguard.com,Kot Addu,1994-08-25,2021-08-28,FINEMP1005,1246312.4,10,3,90.36,5,2024-10-24
+FINEMP1040,Zubair Ali,QA Engineer,Quality Assurance,zubair.ali@finguard.com,Wah Cantonment,1985-02-08,2021-04-23,FINEMP1006,1039818.46,8,7,94.28,3,2024-03-24
+FINEMP1041,Ibrahim Khan,Relationship Manager,Sales,ibrahim.khan@finguard.com,Pakpattan,1995-01-15,2023-06-15,FINEMP1000,1703490.23,7,6,90.84,1,2024-07-30
+FINEMP1042,Rafiq Ahmed,Customer Support,Operations,rafiq.ahmed@finguard.com,Vehari,1992-12-01,2024-03-28,FINEMP1007,1785167.47,16,1,89.15,4,2025-04-28
+FINEMP1043,Shoaib Akhtar,Sales Manager,Sales,shoaib.akhtar@finguard.com,Kotli,1984-05-24,2024-06-02,FINEMP1000,849227.01,17,14,91.97,4,2024-02-16
+FINEMP1044,Sadia Ahmed,Software Engineer,Technology,sadia.ahmed@finguard.com,Tando Allahyar,1988-12-22,2021-12-03,FINEMP1008,667541.44,9,1,88.61,5,2024-09-13
+FINEMP1045,Ayesha Siddique,Data Analyst,Data,ayesha.siddique@finguard.com,Khairpur,1996-04-07,2023-10-29,FINEMP1000,911824.83,14,4,99.1,4,2025-02-05
+FINEMP1046,Bashir Ahmed,Marketing Manager,Marketing,bashir.ahmed@finguard.com,Chishtian,1987-12-21,2018-11-03,FINEMP1008,865704.81,19,17,94.1,1,2024-04-13
+FINEMP1047,Noman Ali,Business Analyst,Business,noman.ali@finguard.com,Dadu,1981-11-25,2018-11-25,FINEMP1007,1858162.08,24,24,86.19,5,2025-03-06
+FINEMP1048,Samina Khan,Financial Analyst,Finance,samina.khan@finguard.com,Gojra,1994-10-22,2023-03-26,FINEMP1008,1386670.96,14,7,98.85,3,2024-07-31
+FINEMP1049,Javed Iqbal,Product Manager,Product,javed.iqbal@finguard.com,Mansehra,1977-09-17,2024-05-08,FINEMP1005,1447037.81,13,4,85.89,5,2024-02-01
+FINEMP1050,Nazia Hussain,QA Engineer,Quality Assurance,nazia.hussain@finguard.com,Lodhran,1982-10-12,2021-02-01,FINEMP1008,865633.34,25,6,97.9,1,2024-05-17
+FINEMP1051,Shahzad Khan,Security Engineer,Technology,shahzad.khan@finguard.com,Jacobabad,1992-10-09,2023-09-01,FINEMP1000,1064443.02,26,2,80.35,4,2025-04-15
+FINEMP1052,Khalid Mahmood,Relationship Manager,Sales,khalid.mahmood@finguard.com,Shikarpur,1998-05-14,2018-07-09,FINEMP1000,1673343.38,0,0,80.95,4,2024-06-08
+FINEMP1053,Rukhsana Ali,Customer Support,Operations,rukhsana.ali@finguard.com,Khairpur Mir's,1991-12-07,2020-11-08,FINEMP1002,1502270.01,7,7,91.65,5,2024-05-12
+FINEMP1054,Tahir Ahmed,Data Scientist,Data,tahir.ahmed@finguard.com,Tando Adam,1975-05-28,2019-10-12,FINEMP1004,1675521.46,21,4,84.17,1,2024-06-21
+FINEMP1055,Nasreen Khan,HR Manager,HR,nasreen.khan@finguard.com,Khuzdar,1981-08-27,2024-09-30,FINEMP1009,745459.27,11,2,91.63,1,2024-03-07
+FINEMP1056,Sabir Hussain,UX Designer,Design,sabir.hussain@finguard.com,Chakwal,1980-10-25,2018-08-15,FINEMP1004,685364.51,2,1,99.67,2,2024-06-24
+FINEMP1057,Farzana Ali,Marketing Manager,Marketing,farzana.ali@finguard.com,Arif Wala,1979-10-19,2022-04-22,FINEMP1006,1641119.13,10,1,92.5,2,2024-06-07
+FINEMP1058,Samina Ahmed,Financial Analyst,Finance,samina.ahmed@finguard.com,Ghotki,1990-07-25,2019-09-03,FINEMP1006,1098952.83,8,3,96.31,5,2025-01-31
+FINEMP1059,Abdul Rahman,Customer Support,Operations,abdul.rahman@finguard.com,Mandi Bahauddin,1995-05-31,2018-08-30,FINEMP1006,1430154.39,12,12,93.02,2,2025-04-25
+FINEMP1060,Nasir Khan,Sales Manager,Sales,nasir.khan@finguard.com,Abbottabad,1985-08-27,2020-11-05,FINEMP1007,1258070.34,6,0,98.75,4,2024-09-21
+FINEMP1061,Sajid Mahmood,Blockchain Developer,Technology,sajid.mahmood@finguard.com,Hasilpur,1982-09-21,2020-03-01,FINEMP1008,1349620.28,9,0,81.37,3,2024-01-19
+FINEMP1062,Farkhanda Khan,Product Manager,Product,farkhanda.khan@finguard.com,Jaranwala,1982-07-13,2019-08-23,FINEMP1007,1641718.19,17,7,96.07,1,2025-03-09
+FINEMP1063,Shahid Ali,Risk Analyst,Risk,shahid.ali@finguard.com,Chaman,1991-07-10,2021-10-27,FINEMP1004,1833641.2,8,1,85.81,2,2024-06-29
+FINEMP1064,Nadia Khan,Risk Analyst,Risk,nadia.khan@finguard.com,Turbat,1982-09-11,2021-05-12,FINEMP1004,1809813.11,0,0,83.64,2,2024-05-17
+FINEMP1065,Zahoor Ahmed,Blockchain Developer,Technology,zahoor.ahmed@finguard.com,Dera Ismail Khan,1989-05-09,2019-03-28,FINEMP1004,1947873.28,6,2,81.24,2,2024-10-03
+FINEMP1066,Saima Bibi,Sales Manager,Sales,saima.bibi@finguard.com,Haroonabad,1977-05-24,2020-12-19,FINEMP1008,1333935.56,24,10,91.78,1,2025-01-09
+FINEMP1067,Aslam Khan,Compliance Officer,Compliance,aslam.khan@finguard.com,Shahdadkot,1998-03-26,2021-10-06,FINEMP1001,368244.88,0,0,80.02,3,2024-05-01
+FINEMP1068,Iqbal Hussain,Data Scientist,Data,iqbal.hussain@finguard.com,Badin,1979-05-02,2024-02-23,FINEMP1002,1803057.99,6,0,81.1,3,2024-11-14
+FINEMP1069,Rashid Mahmood,Risk Analyst,Risk,rashid.mahmood@finguard.com,Pattoki,1996-07-25,2018-04-21,FINEMP1003,1596298.88,21,12,96.61,4,2024-09-28
+FINEMP1070,Shazia Khan,Credit Officer,Finance,shazia.khan@finguard.com,Khundian,1978-10-20,2020-12-24,FINEMP1000,1872784.84,17,6,95.36,2,2024-02-04
+FINEMP1071,Nadeem Ahmed,Credit Officer,Finance,nadeem.ahmed@finguard.com,Tank,1986-04-27,2019-03-21,FINEMP1008,1643988.07,0,0,98.33,2,2024-10-15
+FINEMP1072,Sadia Ali,QA Engineer,Quality Assurance,sadia.ali@finguard.com,Hala,1998-08-31,2019-11-08,FINEMP1003,1333187.28,15,1,97.66,3,2024-07-14
+FINEMP1073,Nazia Bibi,Relationship Manager,Sales,nazia.bibi@finguard.com,Kandhkot,1988-11-24,2024-08-22,FINEMP1004,1416536.32,0,0,95.13,5,2025-01-29
+FINEMP1074,Azhar Ali,Relationship Manager,Sales,azhar.ali@finguard.com,Bhakkar,1996-03-28,2024-09-10,FINEMP1005,1938308.68,6,5,92.42,3,2025-04-12
+FINEMP1075,Fouzia Khan,QA Engineer,Quality Assurance,fouzia.khan@finguard.com,Tando Muhammad Khan,1994-03-30,2019-05-14,FINEMP1009,687174.91,6,4,87.01,5,2025-04-27
+FINEMP1076,Sajjad Hussain,Credit Officer,Finance,sajjad.hussain@finguard.com,Dipalpur,1994-03-28,2022-01-25,FINEMP1008,589221.29,27,26,88.76,4,2024-02-25
+FINEMP1077,Kashif Mahmood,UX Designer,Design,kashif.mahmood@finguard.com,Shahkot,1995-08-16,2019-12-07,FINEMP1004,1477253.1,8,5,97.75,1,2024-08-06
+FINEMP1078,Naveed Ahmed,Data Analyst,Data,naveed.ahmed@finguard.com,Kabirwala,1981-03-18,2023-08-01,FINEMP1001,1438958.04,24,1,90.49,2,2024-02-28
+FINEMP1079,Amir Khan,Financial Analyst,Finance,amir.khan@finguard.com,Mianwali,1984-02-29,2023-10-05,FINEMP1000,1507078.74,20,11,87.41,3,2024-01-22
+FINEMP1080,Sobia Ali,Data Analyst,Data,sobia.ali@finguard.com,Lala Musa,1995-01-29,2021-02-24,FINEMP1000,400948.72,14,0,81.49,5,2024-12-08
+FINEMP1081,Shahbaz Ahmed,Credit Officer,Finance,shahbaz.ahmed@finguard.com,Chunian,1997-06-09,2019-06-09,FINEMP1004,1113984.52,25,18,80.71,3,2024-07-26
+FINEMP1082,Rafique Khan,Financial Analyst,Finance,rafique.khan@finguard.com,Kot Abdul Malik,1998-06-24,2018-07-22,FINEMP1005,1036719.56,18,7,93.4,2,2024-01-21
+FINEMP1083,Kamal Hussain,Sales Manager,Sales,kamal.hussain@finguard.com,Renala Khurd,1976-08-20,2022-12-26,FINEMP1001,1413177.7,25,21,91.85,1,2024-01-21
+FINEMP1084,Sabiha Khan,Business Analyst,Business,sabiha.khan@finguard.com,Umerkot,1976-03-24,2023-06-22,FINEMP1004,1982774.95,5,4,99.17,2,2024-06-10
+FINEMP1085,Arif Hussain,QA Engineer,Quality Assurance,arif.hussain@finguard.com,Shahdadpur,1983-12-03,2021-10-11,FINEMP1000,1026240.03,6,6,92.28,2,2024-12-19
+FINEMP1086,Nazir Ahmed,Data Analyst,Data,nazir.ahmed@finguard.com,Chichawatni,1989-09-24,2018-11-28,FINEMP1006,1950772.9,2,2,88.26,5,2024-03-21
+FINEMP1087,Samina Khan,Relationship Manager,Sales,samina.khan@finguard.com,Kharian,1999-08-05,2021-10-06,FINEMP1008,1333720.85,19,3,90.98,2,2024-05-16
+FINEMP1088,Shakeel Ahmed,Customer Support,Operations,shakeel.ahmed@finguard.com,Ahmedpur East,1989-05-18,2020-11-25,FINEMP1005,614347.62,15,0,98.8,5,2024-04-14
+FINEMP1089,Jamil Hussain,Security Engineer,Technology,jamil.hussain@finguard.com,Kot Radha Kishan,1977-05-07,2021-03-01,FINEMP1003,330010.27,4,4,82.24,1,2024-10-29
+FINEMP1090,Arshad Ali,Software Engineer,Technology,arshad.ali@finguard.com,Wazirabad,1993-02-04,2022-07-30,FINEMP1007,454938.59,23,9,91.15,1,2024-09-26
+FINEMP1091,Naseem Khan,Compliance Officer,Compliance,naseem.khan@finguard.com,Chishtian,1982-05-28,2022-03-23,FINEMP1008,1262938.4,19,3,86.4,1,2024-08-30
+FINEMP1092,Parveen Akhtar,HR Manager,HR,parveen.akhtar@finguard.com,Mian Channun,1997-11-12,2019-11-25,FINEMP1003,512211.07,4,4,85.19,3,2024-05-18
+FINEMP1093,Sultan Khan,Product Manager,Product,sultan.khan@finguard.com,Baddomalhi,1976-10-18,2024-07-28,FINEMP1002,1325752.2,12,9,93.73,5,2024-01-31
+FINEMP1094,Sarfraz Ahmed,UX Designer,Design,sarfraz.ahmed@finguard.com,Jatoi,1994-12-04,2023-06-29,FINEMP1007,1373465.39,24,2,91.59,2,2024-10-23
+FINEMP1095,Rabia Khan,QA Engineer,Quality Assurance,rabia.khan@finguard.com,Mehrabpur,1997-04-09,2021-03-12,FINEMP1008,305337.03,18,4,88.06,5,2024-02-15
+FINEMP1096,Zaheeruddin Khan,Credit Officer,Finance,zaheeruddin.khan@finguard.com,Talagang,1983-07-25,2022-03-25,FINEMP1003,807527.48,8,6,97.67,3,2024-01-04
+FINEMP1097,Shagufta Khan,Marketing Manager,Marketing,shagufta.khan@finguard.com,Samundri,1995-09-14,2018-02-10,FINEMP1000,1468652.84,18,14,94.91,2,2024-05-14
+FINEMP1098,Shafique Ahmed,Risk Analyst,Risk,shafique.ahmed@finguard.com,Layyah,1994-01-29,2018-11-26,FINEMP1004,1521060.31,19,9,92.26,4,2024-08-06
+FINEMP1099,Abdul Wahab,DevOps Engineer,Technology,abdul.wahab@finguard.com,Liari,1996-11-20,2020-07-28,FINEMP1008,586137.55,12,3,95.52,3,2024-11-09
