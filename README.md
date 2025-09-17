@@ -16,13 +16,6 @@ FinGuard is an enterprise-grade AI-powered assistant designed specifically for P
 
 ---
 
-## 📸 Screenshots
-| Login Page | Chat Interface | Data Explorer |
-|:---:|:---:|:---:|
-| ![Login](https://img.icons8.com/fluency/96/000000/login-rounded-right.png) | ![Chat](https://img.icons8.com/fluency/96/000000/chat.png) | ![Data](https://img.icons8.com/fluency/96/000000/database.png) |
-
----
-
 ## 📦 Features
 - **🔐 Role-based Authentication** - 6 predefined roles (Finance, HR, Marketing, Engineering, C-Level, Employee)
 - **🤖 LangGraph Agentic AI** - Intelligent agent with specialized tools for different data types
