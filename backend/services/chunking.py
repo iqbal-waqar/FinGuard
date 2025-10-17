@@ -41,17 +41,6 @@ def get_markdown_splitter() -> MarkdownHeaderTextSplitter:
     )
 
 def chunk_document(content: str, metadata: Dict[str, Any], is_markdown: bool = True) -> List[Document]:
-    """
-    Chunk document using LangChain's optimized text splitters
-    
-    Args:
-        content: Document content to chunk
-        metadata: Base metadata for the document
-        is_markdown: Whether to use markdown-aware chunking
-        
-    Returns:
-        List of Document chunks with enhanced metadata
-    """
     doc = Document(page_content=content, metadata=metadata)
     
     try:
